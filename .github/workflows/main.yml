@@ -69,7 +69,3 @@ jobs:
             sudo docker pull nikiafree/infra_action:latest
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker run --rm -d -p 5000:5000 nikiafree/infra_action:latest
-
-
-
-
